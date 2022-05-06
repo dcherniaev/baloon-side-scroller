@@ -6,8 +6,6 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-
-    [SerializeField]
     private float spawnDelay = 1;
     [SerializeField]
     private float spawnInterval = 2f;
@@ -21,8 +19,6 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverScreen;
     public GameObject newHighScoreScreen;
     public InputField mainInputField;
-    
-
 
     // Start is called before the first frame update
     void Start()
